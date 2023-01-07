@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----------------------------------header part css-----------------------------------*/
+#header-part {
+    background: url(./images/banner/banner1.png), no-repeat;
+    background-size: cover;
+    min-height: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.text-part {
+    margin-right: 7vw;
+    margin-top: 4vw;
+}
+
+.heading-text {
+    font-size: 60px;
+}
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.secondary {
+    color: gray;
+    font-size: 20px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 5vw;
+}
+
+.btn {
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact-btn {
+    border: none;
+    background: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background: rgb(255, 106, 52);
+}
+
+.btn:active {
+    padding: 13px 27px 13px 27px;
+}
+
+
+
+/*------------------------------------------main part css-------------------------------------- */
+#main-part {
+    margin-top: 10vw;
+}
+
+.failur-section {
+    display: flex;
+    justify-content: center;
+}
+
+.failur-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.failur-text {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.icon {
+    color: rgb(30, 255, 0);
+    margin-right: 10px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+.bonus-section {
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+}
+
+.bonus-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.bonus-text {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.bonus-img {
+    width: 40vw;
+}
+
+.my-plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan {
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mindset {
+    margin-top: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mindset-img {
+    background: linear-gradient(to left, transparent, rgb(255, 102, 0)), url(./images/watch.png);
+    width: 83.4vw;
+    border-radius: 10px;
+    height: 22.1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.mindset-text {
+    color: white;
+    margin-left: 70px;
+    font-size: 40px;
+    text-shadow: 1px 1px 10px black;
+    margin-top: 20px;
+}
+
+.callMe-btn {
+    margin-left: 70px;
+    color: orangered;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ------------------------------------------footer part css---------------------------------------- */
+#footer-part {
+    margin-top: 10vw;
+    background: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 35%;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 40%;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+.footer-heading {
+    color: white;
+    font-size: 60px;
+}
+
+.footer-text {
+    color: gray;
+    font-size: 20px;
+}
+
+.subscribe {
+    color: white;
+}
+
+.input-box {
+    border: 2px solid white;
+    background: black;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribe-btn-container {
+    display: flex;
+    align-items: center;
+    height: 5vw;
+}
+
+.subscribe-btn {
+    color: orangered;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    font-size: 20px;
+}
+
+textarea:focus,
+input:focus {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.socialMedia-container {
+    margin-top: 10px;
+}
+
+.socialMedia-icon {
+    margin-right: 20px;
+}
